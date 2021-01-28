@@ -7,15 +7,15 @@
 
 import Foundation
 
-public class SubmoduleLogger {
+open class SubmoduleLogger {
     
     static let shared = SubmoduleLogger()
     
-    init(){
+    public init(){
         self.log()
     }
     
-    public func log() {
+    open func log() {
         print("submodule呼ばれたよ！")
     }
 }
