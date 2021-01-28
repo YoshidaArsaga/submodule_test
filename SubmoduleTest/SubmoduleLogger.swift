@@ -8,7 +8,7 @@
 import Foundation
 
 open class SubmoduleLogger {
-    func log() {
+    public func log() {
         print("submodule呼ばれたよ！")
     }
 }
