@@ -15,6 +15,7 @@
 		3BD86FBA25C2A392008900B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD86FB825C2A392008900B3 /* LaunchScreen.storyboard */; };
 		3BD86FC525C2A393008900B3 /* SubmoduleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD86FC425C2A393008900B3 /* SubmoduleTestTests.swift */; };
 		3BD86FD025C2A393008900B3 /* SubmoduleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD86FCF25C2A393008900B3 /* SubmoduleTestUITests.swift */; };
+		3BD86FE125C2A441008900B3 /* SubmoduleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD86FE025C2A441008900B3 /* SubmoduleLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3BD86FCB25C2A393008900B3 /* SubmoduleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmoduleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD86FCF25C2A393008900B3 /* SubmoduleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestUITests.swift; sourceTree = "<group>"; };
 		3BD86FD125C2A393008900B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD86FE025C2A441008900B3 /* SubmoduleLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3BD86FAD25C2A391008900B3 /* AppDelegate.swift */,
 				3BD86FAF25C2A391008900B3 /* SceneDelegate.swift */,
 				3BD86FB125C2A391008900B3 /* ViewController.swift */,
+				3BD86FE025C2A441008900B3 /* SubmoduleLogger.swift */,
 				3BD86FB325C2A391008900B3 /* Main.storyboard */,
 				3BD86FB625C2A392008900B3 /* Assets.xcassets */,
 				3BD86FB825C2A392008900B3 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD86FE125C2A441008900B3 /* SubmoduleLogger.swift in Sources */,
 				3BD86FB225C2A391008900B3 /* ViewController.swift in Sources */,
 				3BD86FAE25C2A391008900B3 /* AppDelegate.swift in Sources */,
 				3BD86FB025C2A391008900B3 /* SceneDelegate.swift in Sources */,
